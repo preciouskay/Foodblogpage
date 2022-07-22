@@ -9,20 +9,20 @@
     background-image: url(/images/img4\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: fit-content;
 }
 
 .head-nav {
-    color: purple !important;
+    color: purple;
     font-family: 'Dancing Script', cursive;
 }
 
 .textcolor {
-    color: #91abb1!important;
+    color: #91abb1;
 }
 
 .textcolor5 {
-    color: cadetblue !important;
+    color: cadetblue;
 }
 
 .textmenu {
@@ -36,15 +36,21 @@
 .careticon {
     color: rgba(255, 255, 255, 0.65);
     width: 100%;
+    margin: auto;
+}
+
+.caretm-icon {
+    color: rgba(255, 255, 255, 0.65);
 }
 
 .caretmain {
     background-color: #f98e79;
     border-radius: 100%;
+    padding: 10px 20px;
 }
 
 .sec4icon {
-    max-width: 50px !important;
+    width: 50px;
     margin: auto;
     border-radius: 95%;
     border: 2px solid white;
@@ -180,5 +186,16 @@
 @media(max-width:575px) {
     .sec6image {
         margin: 20px 0;
+    }
+}
+
+@media(max-width:320px) {
+    .mybtn {
+        display: block;
+        width: 100%;
+    }
+    .story,
+    .caretmain {
+        margin-top: 20px;
     }
 }
